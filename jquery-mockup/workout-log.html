@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Workout Log</title>
+    <link rel="stylesheet" href="dist/main.bundle.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Choose Exercise</a>                                               
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <ul class="list-group list-group-flush" id="routine-List"></ul>                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <div class="card">
+                        <div class="card-header">
+                            Completed Exercises
+                        </div>
+                        <ul class="list-group list-group-flush" id="my-routines">
+                            <li class="list-group-item" id="default-message">Click an exercise</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <a class="btn btn-secondary " role="button" aria-haspopup="true" aria-expanded="false" id="submit-it" onclick="myFunction()">
+                                       Submit Results
+                                      </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var navProperties = {
+            mainNav: "_nav.html",
+            currentSection: "home"
+        };
+    </script>
+    <script src="dist/bundle.js">
+
+    </script>
+    <script>
+        function myFunction() {
+            alert("feature not implemented yet!! Sorry!");
+        }
+    </script>
+</body>
+
+</html>
